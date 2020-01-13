@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="libraries/fontawesome/all.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Animates CSS -->
+    <link rel="stylesheet" href="libraries/animate/animate.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/style.css">
+
+    <!-- Title Icon -->
+    <link rel="icon" type="image/gif/png" href="img/favicon.ico">
+
+    <title>Hefa Store</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="container cart-header">
+        <div class="row mb-3 text-center my-5">
+            <div class="col">
+                <h3 class="wow fadeInDown">Your Cart</h3>
+                <p class="wow fadeIn dur1">Pastikan Barang anda terbayar lunas</p>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Header -->
+
+    <!-- Breadcrumb -->
+    <div class="container mt-5">
+        <nav>
+            <ol class="breadcrumb bg-transparent pl-0 cart-breadcrumb wow fadeInUp dur1">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Cart Checkout</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- Akhir Breadcrumb -->
+
+    <!-- Checkout -->
+    <section class="checkout">
+        <div class="container">
+            <div class="row justify-content-between jarakbawah">
+                <div class="col-lg-6">
+                    <h4 class="mb-4 wow fadeIn dur2">Your Items</h4>
+                    <div class="row mb-4 wow fadeInDown dur2">
+                        <div class="col-2">
+                            <img src="img/cart/1.png">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Jeans Pubb</h5>
+                            <p class="m-0 text-light-grey">IDR 183.400,00</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm wow fadeInLeft dur1 btn-minus minus">
+                                <i class="fas fa-minus-circle"></i>
+                            </button>
+                            <input type="number" class="count mx-2 wow fadeInLeft dur2 bg-transparent" name="qty"
+                                value="1">
+                            <button type="button" class="btn btn-sm btn-success wow btn-plus fadeInLeft dur2 plus">
+                                <i class="fas fa-plus-circle"></i>
+                            </button>
+                        </div>
+                        <div class="col text-right">
+                            <button type="button" class="btn btn-sm btn-danger">
+                                <i class="fas fa-times-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row mb-4 wow fadeInDown dur3">
+                        <div class="col-2">
+                            <img src="img/cart/2.png">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Pure White</h5>
+                            <p class="m-0 text-light-grey">IDR 321.657,00</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm wow fadeInLeft dur1 btn-minus minus">
+                                <i class="fas fa-minus-circle"></i>
+                            </button>
+                            <input type="number" class="count mx-2 wow fadeInLeft dur2 bg-transparent" name="qty"
+                                value="1">
+                            <button type="button" class="btn btn-sm btn-success wow btn-plus fadeInLeft dur2 plus">
+                                <i class="fas fa-plus-circle"></i>
+                            </button>
+                        </div>
+                        <div class="col text-right">
+                            <button type="button" class="btn btn-sm btn-danger">
+                                <i class="fas fa-times-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row mb-4 wow fadeInDown dur4">
+                        <div class="col-2">
+                            <img src="img/cart/4.png">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Me Navy</h5>
+                            <p class="m-0 text-light-grey">IDR 563.200,00</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm wow fadeInLeft dur1 btn-minus minus">
+                                <i class="fas fa-minus-circle"></i>
+                            </button>
+                            <input type="number" class="count mx-2 wow fadeInLeft dur2 bg-transparent" name="qty"
+                                value="1">
+                            <button type="button" class="btn btn-sm btn-success wow btn-plus fadeInLeft dur2 plus">
+                                <i class="fas fa-plus-circle"></i>
+                            </button>
+                        </div>
+                        <div class="col text-right">
+                            <button type="button" class="btn btn-sm btn-danger">
+                                <i class="fas fa-times-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <h4 class="mb-4 wow fadeInDown batasAtas">Your Address</h4>
+                    <form>
+                        <div class="form-group wow fadeInDown">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="Alamat lengkap">
+                        </div>
+                        <div class="form-group wow fadeInDown">
+                            <label for="address2">Address II</label>
+                            <input type="text" class="form-control" id="address2" placeholder="Alamat tambahan">
+                        </div>
+                        <div class="form-group wow fadeInDown dur1">
+                            <label for="city">City</label>
+                            <select name="city" id="city" class="custom-select">
+                                <option selected>Select City</option>
+                                <option value="1">Bandung</option>
+                                <option value="2">Jakarta</option>
+                                <option value="3">Surabaya</option>
+                            </select>
+                        </div>
+                        <div class="form-group wow fadeInDown dur2">
+                            <label for="country">Country</label>
+                            <select name="country" id="country" class="custom-select">
+                                <option selected>Select Country</option>
+                                <option value="1">Indonesia</option>
+                                <option value="2">Malaysia</option>
+                                <option value="3">Thailand</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card rounded-0 checkout-detail wow fadeInUp dur1">
+                        <div class=" card-body wow fadeInUp dur2">
+                            <h5 class="card-title">Informasi Biaya</h5>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Jeans Pubb</h6>
+                                    <small class="light">3 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end ">
+                                    <h6 class="m-0 align-self-center text-success">IDR 550.200,00</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Pure White</h6>
+                                    <small class="light">6 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end ">
+                                    <h6 class="m-0 align-self-center text-success">IDR 1.126.400,00</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Me Navy</h6>
+                                    <small class="light">2 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end ">
+                                    <h6 class="m-0 align-self-center text-success">IDR 1.929.942,00</h6>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Courier</h6>
+                                    <small class="light">JNT Express</small>
+                                </div>
+                                <div class="col d-flex justify-content-end ">
+                                    <h6 class="m-0 align-self-center text-success">IDR 50.000,00</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Tax</h6>
+                                    <small class="light">Negara 20%</small>
+                                </div>
+                                <div class="col d-flex justify-content-end ">
+                                    <h6 class="m-0 align-self-center text-success">IDR 230.200,00</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Eid Promo</h6>
+                                    <small class="light">10% Off</small>
+                                </div>
+                                <div class="col d-flex justify-content-end ">
+                                    <h6 class="m-0 align-self-center text-danger">- IDR 24.000,00</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Total Harga</h6>
+                                </div>
+                                <div class="col d-flex justify-content-end ">
+                                    <h6 class="m-0 align-self-center text-primary">IDR 3.606.542,00</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <a href="index.html" class="btn btn-block btn-batal wow fadeInDown dur1" ata-toggle="modal"
+                                data-target="#checkoutModal">Cancel</a>
+                        </div>
+                        <div class="col">
+                            <a href="success.html"
+                                class="btn btn-warning btn-block wow fadeInDown dur2 text-white">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Checkout -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="libraries/fontawesome/all.js"></script>
+    <script src="libraries/wow/wow.js"></script>
+    <script src="libraries/jquery/jquery-3.4.1.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.count').prop('disabled', true);
+            $(document).on('click', '.plus', function () {
+                $('.count').val(parseInt($('.count').val()) + 1);
+            });
+            $(document).on('click', '.minus', function () {
+                $('.count').val(parseInt($('.count').val()) - 1);
+                if ($('.count').val() == 0) {
+                    $('.count').val(1);
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

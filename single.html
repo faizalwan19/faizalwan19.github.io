@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="libraries/fontawesome/all.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap"
+        rel="stylesheet">
+
+    <!-- xzoom -->
+    <link rel="stylesheet" href="libraries/xzoom/xzoom.css">
+
+    <title>Hefa Store</title>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/style.css">
+
+    <!-- Animates CSS -->
+    <link rel="stylesheet" href="libraries/animate/animate.css">
+
+
+    <!-- Title Icon -->
+    <link rel="icon" type="image/gif/png" href="img/favicon.ico">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/hefastorelogo.png" alt="Hefa Store">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-uppercase mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Designer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
+                <a href="cart.html" class="nav-link text-white">
+                    <img src="img/cart.png" class="mr-2 mb-1"></img> My Cart (<span>12</span>)
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Breadcrumb -->
+    <div class="container mt-5">
+        <nav>
+            <ol class="breadcrumb bg-transparent pl-0 wow fadeIn">
+                <li class="breadcrumb-item"><a href="index.html">Category</a></li>
+                <li class="breadcrumb-item active">Single Product</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- Akhir Breadcrumb -->
+
+    <!-- Single Product -->
+    <section class="single-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <figure class="figure">
+                        <div class="gallery">
+                            <div class="xzoom-container wow fadeInUp">
+                                <img src="img/single/1.png" class="xzoom figure-img img-fluid" id="xzoom-default"
+                                    xoriginal="img/single/1d.png">
+                            </div>
+                            <figcaption
+                                class="figure-caption product-thumbnail-container d-flex justify-content-between wow fadeIn">
+                                <div class="xzoom-thumbs mx-auto my-auto">
+                                    <a href="img/single/preview/1d.jpg">
+                                        <img src="img/single/thumbnail/1.png" class="xzoom-gallery wow fadeInUp dur1"
+                                            width="80" xpreview="img/single/preview/1.jpg">
+                                    </a>
+                                    <a href="img/single/preview/2d.jpg">
+                                        <img src="img/single/thumbnail/2.png" class="xzoom-gallery wow fadeInUp dur2"
+                                            width="80" xpreview="img/single/preview/2.jpg">
+                                    </a>
+                                    <a href="img/single/preview/3d.jpg">
+                                        <img src="img/single/thumbnail/3.png" class="xzoom-gallery wow fadeInUp dur3"
+                                            width="80" xpreview="img/single/preview/3.jpg">
+                                    </a>
+                                    <a href="img/single/preview/4d.jpg">
+                                        <img src="img/single/thumbnail/4.png" class="xzoom-gallery wow fadeInUp dur4"
+                                            width="80" xpreview="img/single/preview/4d.jpg" data-toggle="modal"
+                                            data-target="#videoreview">
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <!-- Modal -->
+                    <div class="modal fade modal-xl" id="videoreview" tabindex="-1" role="dialog"
+                        aria-labelledby="videreviewTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <iframe width="727" height="409"
+                                        src="https://www.youtube.com/embed/Kk-Tsm5Renc?list=TLPQMTIwMTIwMjBuQlZcrUqmog"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <h3 class="wow fadeInDown">Jeans : Giordano XI</h3>
+                    <p class="text-muted wow fadeInDown">IDR 290.000.000</p>
+                    <button type="button" class="btn btn-sm wow fadeInLeft dur1 btn-minus minus">
+                        <i class="fas fa-minus-circle"></i>
+                    </button>
+                    <input type="number" class="count mx-2 wow fadeInLeft dur2 bg-transparent" name="qty" value="1">
+                    <button type="button" class="btn btn-sm btn-success wow btn-plus fadeInLeft dur2 plus">
+                        <i class="fas fa-plus-circle"></i>
+                    </button>
+
+                    <div class="btn-product">
+                        <a href="cart.html" class="btn btn-warning text-white wow fadeInUp dur1">Add to Cart</a>
+                        <a href="#" class="btn wow fadeInUp dur2 btn-whishlist">Add to Whishlist</a>
+                        <hr class=" wow fadeInUp dur3">
+                    </div>
+
+                    <div class=" designed-by">
+                        <h5 class="wow fadeIn dur3">Desgined by</h5>
+                        <div class=" row">
+                            <div class="col-2">
+                                <img src="img/designer/2sm.png" class="wow fadeIn dur3">
+                            </div>
+                            <div class="col mt-2 ml-3">
+                                <h4 class="wow fadeInDown dur3">Faizal Alwan</h4>
+                                <p class="wow fadeInDown dur4">14.2 <span>Followers</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Single Product -->
+
+    <!-- Product Description & Review -->
+    <section class="product-description p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 wow fadeInUp">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description"
+                                role="tab" aria-controls="description" aria-selected="true">Product Description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab"
+                                aria-controls="review" aria-selected="false">Reviews (20)</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-3" id="myTabContent">
+                        <div class="tab-pane fade show active product-review" id="description" role="tabpanel"
+                            aria-labelledby="description-tab">
+                            <p>Payday is finally here and you’ve got some extra cash to help you
+                                stock up your summer wardrobe. Not sure where to start? ASOS Stylist
+                                Beccy Goldsworthy is here with the best of what’s new, from 80s-in spired
+                                tracksuits to some seriously fresh trainers. Check out her picks below
+                                and watch the video for more.</p>
+
+                            <p>This is such a versatile piece. It would look great with light chinos for
+                                dinner when you’re on holiday, or teamed with cargo shorts
+                                on a city break.</p>
+                        </div>
+                        <div class="tab-pane fade product-review" id="review" role="tabpanel"
+                            aria-labelledby="review-tab">
+                            <div class="row">
+                                <div class="col-1 d-none d-md-block">
+                                    <img src="img/review/1.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Febri Alfiana</h5>
+                                    <p>Produknya bagus dan cocok untuk di kulit</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1  d-none d-md-block">
+                                    <img src="img/review/2.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Selsi Devi</h5>
+                                    <p>Suka banget sama bahannya dingin, dan nyerap keringat</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1  d-none d-md-block">
+                                    <img src="img/review/3.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Panji Nugraha</h5>
+                                    <p>Harga sesuai kualitas </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1  d-none d-md-block">
+                                    <img src="img/review/4.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Sarah Fikriani</h5>
+                                    <p>Jilbabnya cantik bahannya juga oke, hehe :)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Product Description & Review -->
+
+    <!-- Similar Product -->
+    <section class="similar-product">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col mt-5">
+                    <h3 class="wow fadeIn">Similar Product</h3>
+                    <p class="wow fadeInDown">Pakaian pelengkap produk diatas</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <figure class="figure wow fadeInUp dur1">
+                        <img src="img/similar/3.png" class="figure-img img-fluid zoom-z1">
+                        <figcaption class=" figure-caption text-xs-right">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Jeans Pubb</h4>
+                                    <p>Match 20%</p>
+                                </div>
+                                <div class="col d-flex justify-content-end align-items-center">
+                                    <p class="price">IDR 290.000.000</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="figure wow fadeInUp dur2">
+                        <img src="img/similar/2.png" class="figure-img img-fluid zoom-z1">
+                        <figcaption class=" figure-caption text-xs-right">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Whtie Pure</h4>
+                                    <p>Match 20%</p>
+                                </div>
+                                <div class="col d-flex justify-content-end align-items-center">
+                                    <p class="price">IDR 290.000.000</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="figure wow fadeInUp dur3">
+                        <img src="img/similar/1.png" class="figure-img img-fluid zoom-z1">
+                        <figcaption class=" figure-caption text-xs-right">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Hatty Bomb</h4>
+                                    <p>Match 20%</p>
+                                </div>
+                                <div class="col d-flex justify-content-end align-items-center">
+                                    <p class="price">IDR 290.000.000</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- AkhirSimilar Product -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5 bg-dark" id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <a href="#navigasi">
+                        <img src="img/hefastorelogo.png">
+                    </a>
+                </div>
+                <div class="col-4 text-right sosmed">
+                    <a href="">
+                        <img src="img/social/fb.png">
+                    </a>
+                    <a href="">
+                        <img src="img/social/tw.png" class="pl-3">
+                    </a>
+                    <a href="">
+                        <img src="img/social/ig.png" class="pl-3">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-between">
+                <div class="col-5 pt-0">
+                    <p>All Rights Reserved by <b>Hefa Store</b> Copyright 2019</p>
+                </div>
+                <div class="col-6">
+                    <nav class="nav text-uppercase justify-content-end details navfoot">
+                        <a class="nav-link" href="#">Jobs</a>
+                        <a class="nav-link" href="#">Developer</a>
+                        <a class="nav-link" href="#">Terms</a>
+                        <a class="nav-link pr-0" href="#">Privacy Policy</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="libraries/popper/popper.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="libraries/fontawesome/all.js"></script>
+    <script src="libraries/xzoom/xzoom.min.js"></script>
+    <script src="libraries/wow/wow.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.count').prop('disabled', true);
+            $(document).on('click', '.plus', function () {
+                $('.count').val(parseInt($('.count').val()) + 1);
+            });
+            $(document).on('click', '.minus', function () {
+                $('.count').val(parseInt($('.count').val()) - 1);
+                if ($('.count').val() == 0) {
+                    $('.count').val(1);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
